@@ -19,7 +19,7 @@ GITHUB_RAW_URL = f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{REPO_NAM
 headers = {
     'user-agent': USER_AGENT,
     'x-device-country': 'IT',
-    'x-device-language': 'it',
+    'x-device-language': 'en',
 }
 
 def fetch_data():
